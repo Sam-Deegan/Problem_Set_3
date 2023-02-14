@@ -1,1 +1,1 @@
-# Econometrics_Problem_Set_3
+# Problem_Set_3
