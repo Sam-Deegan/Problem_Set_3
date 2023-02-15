@@ -15,7 +15,7 @@ for (dir in directories) {
   dir.create(dir)
   
   # Create the subdirectories within the top-level directory
-  if (dir != "0_Setup") {
+  if (dir != "0_Project_Management") {
     for (subdir in subdirectories) {
       dir.create(file.path(dir, subdir))
     }
