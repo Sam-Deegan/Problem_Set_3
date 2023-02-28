@@ -78,7 +78,7 @@ project_plan_contents <- paste("#", project_title,
                                "\n\n## Evaluation and Metrics\n\n", evaluation_and_metrics, 
                                "\n\n## Next Steps\n\n", next_steps)
 
-write(project_plan_contents , file = "Project_Plan.md")
+write(project_plan_contents , file = "0_Project_Management/Project_Plan.md")
 
 cat(paste0("File '", file_name, "' has been created."))
 
